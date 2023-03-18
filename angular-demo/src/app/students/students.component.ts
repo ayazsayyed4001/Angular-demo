@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./students.component.css']
 })
 export class StudentsComponent {
-
+  greet(name:any,message:any){
+    console.log(` ${name}, ${message}`)
+  }
 }
